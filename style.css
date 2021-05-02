@@ -1,0 +1,87 @@
+.header {
+    background-image: url("images/home-1-slide-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.one {
+    background-image: url("images/Milk1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.two {
+    padding: 30px;
+    margin: 100px;
+    display: block;
+    justify-content: left;
+
+}
+
+.color {
+    background-image: url("yellow_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+
+}
+
+.buck {
+    padding-right: 150px;
+    padding-bottom: 100px;
+    float: right;
+    display: flex;
+    margin-right: 80px;
+    padding: 5px;
+    box-shadow: 1px 10px 10px 1px white;
+}
+
+.three {
+    display: block;
+    justify-content: right;
+    margin: 140px;
+
+}
+
+.buck1 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 70px 1px 1px white;
+}
+
+#Fresh{
+    background-image: url("big_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+    background-color: transparent;
+
+
+}
+
+.link{
+    text-align: center;
+    background-color: transparent;
+}
+
+/* .four {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+} */
