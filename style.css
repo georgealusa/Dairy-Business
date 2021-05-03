@@ -1,5 +1,5 @@
 .header {
-    background-image: url("images/home-1-slide-1.jpg");
+    background-image: url("./home-1-slide-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.;
@@ -9,7 +9,7 @@
 }
 
 .one {
-    background-image: url("images/Milk1.jpeg");
+    background-image: url("./Milk1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -60,7 +60,7 @@
 }
 
 #Fresh{
-    background-image: url("big_bg.jpg");
+    background-image: url("./big_bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
