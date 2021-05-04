@@ -14,7 +14,8 @@ No issues unsolved in this project.
 ## Technologies Used
 Html, Javascript & Css
 ## Support and contact details
-george.alusa@student.moringaschool.com/georgealusa@gmail.com
+george.alusa@student.moringaschool.com
+georgealusa@gmail.com
 ### License
 *Licensed under the {MIT LICENSE}*
 (License.txt)
