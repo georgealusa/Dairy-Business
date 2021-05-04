@@ -1,114 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dairy Business</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Maziwa Sasa Dairy</title>
 </head>
-
 <body>
-    <div class="header">
-        <h1 style="color: white;">Dairy Milk Business</h1>
-        <h2 style="color: white;text-align: center;font-style: italic;font-size: 4em;">Alusah Dairy Products
-        </h2>
-        <p style="color: white;text-align: center;font-style: italic;font-size: 2em;">Dairy farming is a class of agriculture for long-term 
-            production of milk, which is processed for eventual sale of a dairy product.
+  <div class="main">
+    <div class="heading">
+        <h1>MAZIWA SASA DAIRY MANAGEMENT PORTAL</h1>
     </div>
-    <div class="color">
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <h1 style="text-align: center;font-size: 3em;">Embrace Our Quality Products!</h1>
-        <p style="text-align: center;font-size: 2em;">
-            Here you will find a wide range of healthy and fresh dairy products<br>
-            that were proudly produced at our farm by our farmers and cows.
-
-        </p>
-
+    <div class="title">
+      <h1>Enter amount in Litres</h1>
     </div>
-
-    <div class="buck">
-        <img src="./bucket1.jpg">
+    <div class="contact-form">
+      <div class="input-fields">
+        <input type="text" class="input" placeholder="Shade A" id="shade_a" name="shade_a" >
+        <input type="text" class="input" placeholder="Shade B" id="shade_b" name="shade_b">
+        <input type="text" class="input" placeholder="Shade C" id="shade_c" name="shade_c">
+        <input type="text" class="input" placeholder="Shade D" id="shade_d" name="shade_d">
+        <input class="btn" type="button" value="Generate Report" onclick="totalProduction()">
+        <input class="btn" type="button" value="Reload" onclick="reset()">
+      </div> 
     </div>
-    <div class="two">
-        <h1 style="font-size: 2em;">Bucket milking</h1>
-        <p style="font-size: 1.5em;">
-            Centralized dairy farming as we understand it primarily developed
-            around villages and cities, where residents were
-            unable to have cows of their own due to a lack of grazing land. Near
-            the town, farmers could make some extra money on the side by having
-            additional animals and selling the milk in town. The dairy farmers would
-            fill barrels with milk in the morning and bring it to market on a wagon.
-            Until the late 19th century, the milking of the cow was done by hand.
-            In the United States, several large dairy operations existed in some
-            northeastern states and in the west, that involved as many as several hundred
-            cows, but an individual milker could not be expected to milk more than a dozen
-            cows a day. Smaller operations predominated.
-        </p>
-
+  </div> 
+  <div class="output" >
+      <div class="title">
+        <h1>Daily production in ltrs.</h1>
+      </div>
+      <div class="production-area">
+          <div id="results">
+          </div>
+          <div id="totals">
+          </div> 
+      </div>   
+  </div>
+  <div class="overTime" >
+    <div class="title">
+      <h1>Income Over Time</h1>
     </div>
-    <div class="buck1">
-        <img src="./bucket3.jpg" style="float:right;">
+    <div class="production-area">
+        <div id="display_incomeOverTime_weekly">
 
-    </div>
-    <div class="three">
-        <h1 style="font-size: 2em;">Milk Production</h1>
-        <p style="font-size: 1.5em;">
-            For most herds, milking took place indoors twice a day, in a barn with the cattle
-            tied by the neck with ropes or held in place by stanchions. Feeding could occur
-            simultaneously with milking in the barn, although most dairy cattle were pastured
-            during the day between milkings. Such examples of this method of dairy farming are
-            difficult to locate, but some are preserved as a historic site for a glimpse into
-            the days gone by. One such instance that is open for this is at Point Reyes National Seashore.
-            Dairy farming has been part of agriculture for thousands of years. Historically it has
-            been one part of small, diverse farms. In the last century or so larger farms concentrating
-            on dairy production emerged. Large scale dairy farming is only viable where either a large
-            amount of milk is required for production of more durable dairy products such as cheese, butter,
-            etc. or there is a substantial market of people with cash to buy milk,
-            but no cows of their own. Dairy farms were the best way to meet demand.
-
-        </p>
-
-    </div>
-
-    <div id="Fresh">
-        <h1 style="font-size: 3.5em;">The Best Dairy Cows</h1>
-        <h2 style="font-size: 3em;text-align: center;">Always having the best and Fresh Milk</h2>
-
-        <p style="text-align: center;font-size: 2em;color: gold;">
-            Although any mammal can produce milk, commercial dairy farms are typically one-species
-            enterprises.<br> In developed countries, dairy farms typically consist of high producing dairy
-            cows. <br>Other species used in commercial dairy farming include goats, sheep, and camels. Donkeys in Italy.
-        </p>
-        <div class="link">
-            <button style="text-align: center;font-size: 2em;"><a
-                    href="https://www.dairydiscoveryzone.com/blog/name-cow-6-great-dairy-breeds">Read
-                    More</a></button>
+        </div>
+        <div id="display_incomeOverTime_yearly">
+      
         </div>
     </div>
-    <div class="input">
-        <br>
-        <br>
-        <input type="text">
-
-
-
+  </div>
+  <div class="leapYearReport" >
+    <div class="title">
+      <h1>Leap Year Report</h1>
     </div>
+    <div class="production-area">
+        <div id="display_">
+          <div id="leapyear"></div>
 
+        </div>
+        <div id="display_">
+      
+        </div>
+    </div>
+  </div>
+  <div class="compareReport" >
+    <div class="title">
+      <h1>Compare Reports</h1>
+    </div>
+    <div class="production-area">
+        <div id="display_">
 
-
-    <!-- <div class="four">
-        <img src="images/Milk1.jpeg" style="text-align:center;">
-     
-     
-    </div> -->
-
-
+        </div>
+        <div id="display_">
+      
+        </div>
+    </div>
+  </div>
+  
+<script src="index.js"></script>
 </body>
-
 </html>

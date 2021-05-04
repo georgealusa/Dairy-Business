@@ -1,87 +1,125 @@
-.header {
-    background-image: url("./home-1-slide-1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif sans-serif;
+  }
+  html{
+     scroll-behavior: smooth;
+  }
+  
+  body{
     background-size: cover;
-    height: 600px;
-
-}
-
-.one {
-    background-image: url("./Milk1.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-
-}
-
-.two {
+    height: 100px;
+  }
+  
+  .main {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
     padding: 30px;
-    margin: 100px;
-    display: block;
-    justify-content: left;
-
-}
-
-.color {
-    background-image: url("yellow_bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-
-
-}
-
-.buck {
-    padding-right: 150px;
-    padding-bottom: 100px;
-    float: right;
-    display: flex;
-    margin-right: 80px;
-    padding: 5px;
-    box-shadow: 1px 10px 10px 1px white;
-}
-
-.three {
-    display: block;
-    justify-content: right;
-    margin: 140px;
-
-}
-
-.buck1 {
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 1px 70px 1px 1px white;
-}
-
-#Fresh{
-    background-image: url("./big_bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-}
-a{
-    text-decoration: none;
-    align-items: center;
-    background-color: transparent;
-
-
-}
-
-.link{
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0fd850;
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  }
+  .output{
+      position: absolute;
+      top: 700px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 550px;
+      background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #0fd850;
+  }
+  
+  .overTime{
+    position: absolute;
+      top: 1000px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 550px;
+      background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #0fd850;
+  }
+  .leapYearReport {
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0fd850;
+  }
+  
+  .output .title h1{
+      color: green;
+      text-align: center;
+      margin-bottom: 25px;
+  }
+  .main .title h1, .heading h1{
+    color: green;
     text-align: center;
-    background-color: transparent;
-}
-
-/* .four {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; 
-} */
+    margin-bottom: 25px;
+  }
+  h1{
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .contact-form{
+    display: flex;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields{
+    width: 100%;
+  }
+  
+  .input-fields .input{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: black;
+  }
+  ::-moz-placeholder {
+    
+    color: black;
+  }
+  :-ms-input-placeholder {
+    color: black;
+  }
+  
+  .btn {
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: black;
+      cursor: pointer;
+      text-transform: uppercase;
+  }
