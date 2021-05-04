@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Times New Roman', Times, serif sans-serif;
+    font-family: 'Arial', Times, serif sans-serif;
   }
   html{
      scroll-behavior: smooth;
@@ -11,7 +11,9 @@
   
   body{
     background-size: cover;
+    background-image: url(./big_bg.jpg);
     height: 100px;
+    background-color: brown;
   }
   
   .main {
@@ -23,7 +25,7 @@
     max-width: 550px;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 0 10px #0fd850;
+    box-shadow: 0 0 10px #0f34d8;
     background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
   }
   .output{
@@ -33,7 +35,7 @@
       transform: translate(-50%, -50%);
       width: 100%;
       max-width: 550px;
-      background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+      background-image: linear-gradient(to top, #0fd850 0%, #79f947 100%);
       padding: 30px;
       border-radius: 5px;
       box-shadow: 0 0 10px #0fd850;
@@ -61,21 +63,21 @@
     background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 0 10px #0fd850;
+    box-shadow: 0 0 10px #0f4fd8;
   }
   
   .output .title h1{
-      color: green;
+      color: rgb(13, 0, 128);
       text-align: center;
       margin-bottom: 25px;
   }
   .main .title h1, .heading h1{
-    color: green;
+    color: rgb(0, 34, 128);
     text-align: center;
     margin-bottom: 25px;
   }
   h1{
-    color: green;
+    color: rgb(0, 13, 128);
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -98,7 +100,7 @@
     margin: 10px 0;
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 0, 0);
     padding: 10px;
     width: 100%;
   }
